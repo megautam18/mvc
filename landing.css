@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+.headbar{
+    width: 2250px;
+    height: 80px;
+    background-color: rgb(53, 43, 43);
+    border: 2px solid goldenrod;
+    border-top-left-radius: 40px;  
+    border-top-right-radius: 40px; 
+    border-bottom-left-radius: 40px; 
+    border-bottom-right-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listitems{
+    text-align: left;
+}
+h1{
+    color: goldenrod;
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+.navbar{
+    position: relative;
+}
+.hamburger
+{
+    display:flex;
+    cursor:pointer;
+    justify-content:space-around;
+    flex-direction: column;
+
+}
+.hamburger .bar {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+    margin-bottom: 3px;
+}
+.navmenu{
+    
+}
