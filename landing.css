@@ -92,15 +92,17 @@ button{
     scrollbar-color: none;
     position: relative;
     scrollbar-width: none;
+    
 }
 .movcard{
     flex: 0 0 auto;
     width: 600px;
     height: 400px;
-    background-color: #444;
     border-radius: 10px;
     overflow: hidden;
     scroll-snap-align: start;
+    box-shadow: 7px 7px 7px rgb(41, 42, 42);
+    background-image: linear-gradient(to bottom , rgb(27, 20, 2),65%, goldenrod);
 }
 .movinf{
     align-content: flex-end;
@@ -109,3 +111,20 @@ button{
 .scroll-btn{
     cursor: pointer;
 }
+/*
+.c1{
+    background-image: linear-gradient(to bottom right, rgb(240, 128, 128), rgb(243, 208, 208));
+}
+
+.c2{
+    background-image: linear-gradient(to bottom right, rgb(102, 255, 0), rgb(205, 237, 185));
+}
+
+.c3{
+    background-image: linear-gradient(to bottom right, rgb(70, 130, 180),  rgb(191, 215, 232));
+}
+
+.c4{
+    background-image: linear-gradient(to bottom right, rgb(178, 34, 34), rgb(231, 174, 174));
+}
+    */
