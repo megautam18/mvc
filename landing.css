@@ -71,5 +71,41 @@ button{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 0px;
     padding-top: 20px;
+    font-size: xx-large;
 
+}
+.ult::first-letter{
+    color: goldenrod;
+}
+.scrollcon{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    
+}
+.movcon{
+    display: flex;
+    gap: 20px;
+    padding:10px;
+    overflow-x: auto;
+    scrollbar-color: none;
+    position: relative;
+    scrollbar-width: none;
+}
+.movcard{
+    flex: 0 0 auto;
+    width: 600px;
+    height: 400px;
+    background-color: #444;
+    border-radius: 10px;
+    overflow: hidden;
+    scroll-snap-align: start;
+}
+.movinf{
+    align-content: flex-end;
+    
+}
+.scroll-btn{
+    cursor: pointer;
 }
