@@ -34,6 +34,8 @@ h2{
     color: white;
     display: flex;
     font-size: x-large;
+    padding-top: 8px;
+    
     
 }
 .ult{
@@ -63,4 +65,11 @@ button{
     height: 32px;
     border-radius: 7px;
     border: none;
+}
+.reco h2{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 0px;
+    padding-top: 20px;
+
 }
