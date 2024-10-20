@@ -1,0 +1,21 @@
+.movcard{
+    display: flex;
+    flex: 0 0 auto;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    scroll-snap-align: start;
+    box-shadow: 7px 7px 7px rgb(41, 42, 42);
+    background-image: linear-gradient(to bottom , rgb(27, 20, 2),65%, goldenrod);
+    align-items: flex-start;
+    
+}
+#resultsContainer{
+    display: flex;
+    align-items: flex-end;
+
+}
+.title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
