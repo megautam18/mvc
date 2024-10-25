@@ -12,8 +12,8 @@ async function resDis(seU){
     const rd=output['release_date'];
     const poster='http://image.tmdb.org/t/p/w500'+output['poster_path']
     resultsContainer.innerHTML = ''; // Clears everything from the page
-    const movieCard = `<h2 class="title" style="color:white">${title}</h2>
-                        <p class="deets" style="color:white">Release Date: ${rd}</p>
+    const movieCard = `<h2 class="title" style="color:white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">${title}</h2>
+                        <p class="deets" style="color:white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Release Date: ${rd}</p>
                         <img src="${poster}" width=300 height=400>`
     resultsContainer.innerHTML += movieCard;
     document.body.appendChild(resultsContainer); }
